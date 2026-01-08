@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LinkedIn Auto Liker</title>
+    <link rel="stylesheet" href="popup.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Auto Liker</h1>
+            <div class="status-badge" id="statusBadge">
+                <span class="dot"></span>
+                <span id="statusText">Stopped</span>
+            </div>
+        </header>
+
+        <main>
+            <div class="card">
+                <div class="info-row">
+                    <span class="label">Platform</span>
+                    <span class="value facebook-blue">LinkedIn</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">Delay</span>
+                    <span class="value">1 Second</span>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button id="toggleBtn" class="btn primary">
+                    Start Liking
+                </button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Premium Automation Tool</p>
+            <a href="https://www.linkedin.com/in/sami-ullah-19ba71333/" target="_blank" class="profile-link">Created by
+                Sami Ullah</a>
+        </footer>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
